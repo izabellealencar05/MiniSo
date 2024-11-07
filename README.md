@@ -7,7 +7,7 @@
 
 <h2>Funcionalidades que ainda precisam ser feitas</h2>
 <ul>
-    <li><strong>Cadastro de Usuário:</strong> Caso não existam usuários cadastrados, o sistema solicita a criação de um novo usuário com senha.</li>
+    <li>Caso não exista nenhum usuário cadastrado no MiniSO, será solicitado no shell, a criação de um usuário e com senha. A senha deve ser salva utilizando um salt e em hash (SHA-512), como foi feito no exercício de segurança.</li>
     <li><strong>Armazenamento Seguro de Senhas:</strong> As senhas são armazenadas em hash SHA-512 com um salt aleatório, conforme práticas de segurança.</li>
     <li><strong>Login:</strong> Permite o login de usuários registrados. A senha digitada não é exibida (com asteriscos ou oculta).</li>
     <li><strong>Exclusão de Último Usuário:</strong> Se o último usuário for excluído, o sistema retornará ao passo de cadastro de um novo usuário.</li>
